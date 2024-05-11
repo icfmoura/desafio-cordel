@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
-
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
@@ -11,16 +10,16 @@
 
 :root {
     --font1: verdana, Geneva, Tahoma, sans-serif;
-    --font2: 'Passion One', cursive;
-    --font3: "Sriracha", cursive;
+    --font2: 'Passion One', Arial, sans-serif;
+    --font3: "Sriracha", Arial, sans-serif;
 }
 
 body {
     background-color: blanchedalmond;
+    min-width: 400px;
 }
 
 html, body {
-    min-height: 100vh;
     background-color: darkgrey;
 }
 
