@@ -24,6 +24,8 @@ html, body {
     background-color: darkgrey;
 }
 
+/*HEADER -----------------------------------------------------------------------------------------*/
+
 .cabecalho {
     background-color: black;
     color: white;
@@ -57,13 +59,19 @@ html, body {
     color: rgb(206, 112, 5);
 }
 
+/*MAIN -----------------------------------------------------------------------------------------*/
+
 section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--font3);
-    font-size: 3vw;
+    font-size: 2.5vw;
+}
+
+section p {
+    padding-bottom: 2em;
 }
 
 .normal {
@@ -74,17 +82,32 @@ section {
 .imagem {
     background-color: rgb(29, 29, 29);
     color: white;
+
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.469);
 }
 
 .imagem p {
     display: inline-block;
+    background-color: rgba(33, 33, 33, 0.594);
+    
     padding: 10px;
-    background-color: rgb(33, 33, 33);
+    border-radius: 10px;
+    text-shadow: 2px 2px 0px black;
+
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.421);
 }
 
+#img01 {
+    background: url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
 
+#img02 {
+    background: url(imagens/background002.jpg) right center no-repeat fixed;
+    background-size: cover;
+}
 
-
+/*FOOTER -----------------------------------------------------------------------------------------*/
 
 footer {
     display: flex;
